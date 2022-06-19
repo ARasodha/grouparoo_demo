@@ -1,0 +1,14 @@
+{
+  "class": "App",
+  "id": "warehouse",
+  "name": "Warehouse",
+  "type": "snowflake",
+  "options": {
+    "schema": "PUBLIC",
+    "account": "we15130.ca-central-1.aws",
+    "database": "DEMO_DB",
+    "password": "Badboys4444",
+    "username": "arjunrasodha",
+    "warehouse": "COMPUTE_WH"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "class": "App",
+  "id": "we15130_ca-central-1",
+  "name": "we15130.ca-central-1",
+  "type": "mailchimp",
+  "options": {
+    "apiKey": "bc567b3f3a7fc6bea3fb1a450fccb403-us12"
+  }
+}

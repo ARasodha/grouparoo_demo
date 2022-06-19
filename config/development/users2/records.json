@@ -1,0 +1,34 @@
+[
+  {
+    "id": "rec_2a1456c7-0c40-48a9-a877-872a3184ef28",
+    "class": "Record",
+    "modelId": "users2",
+    "properties": {
+      "users2_id": [1]
+    }
+  },
+  {
+    "id": "rec_c5027f05-6ff1-4953-a7bf-f41fb12a1cf1",
+    "class": "Record",
+    "modelId": "users2",
+    "properties": {
+      "users2_id": [2]
+    }
+  },
+  {
+    "id": "rec_b0cc040b-39e9-421d-8b28-ab3d62811598",
+    "class": "Record",
+    "modelId": "users2",
+    "properties": {
+      "users2_id": [3]
+    }
+  },
+  {
+    "id": "rec_189ccc3d-573a-4762-876c-49a4b7f22f52",
+    "class": "Record",
+    "modelId": "users2",
+    "properties": {
+      "users2_id": [4]
+    }
+  }
+]

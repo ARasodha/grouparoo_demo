@@ -1,0 +1,20 @@
+{
+  "class": "Destination",
+  "id": "newsletter",
+  "modelId": "users2",
+  "name": "Newsletter",
+  "type": "mailchimp-export-contacts",
+  "appId": "we15130_ca-central-1",
+  "collection": "model",
+  "syncMode": "sync",
+  "options": {
+    "listId": "aa0dc5c081"
+  },
+  "mapping": {
+    "ADDRESS": "address",
+    "FNAME": "first_name",
+    "LNAME": "last_name",
+    "email_address": "email"
+  },
+  "destinationGroupMemberships": {}
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "class": "Source",
+    "id": "users",
+    "modelId": "users2",
+    "name": "Users",
+    "type": "snowflake-import-table",
+    "appId": "warehouse",
+    "options": {
+      "table": "USERS"
+    },
+    "mapping": {
+      "ID": "users2_id"
+    }
+  },
+  {
+    "class": "Schedule",
+    "id": "users_schedule",
+    "name": "Users schedule",
+    "sourceId": "users",
+    "incremental": true,
+    "recurring": true,
+    "recurringFrequency": 900000,
+    "confirmRecords": false,
+    "refreshEnabled": true,
+    "options": {
+      "column": "ID"
+    },
+    "filters": []
+  }
+]
